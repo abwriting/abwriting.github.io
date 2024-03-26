@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"tocId-d1061e812":{"topics":[{"title":"Responding to Events","shortdesc":"<p class=\"shortdesc\"\/>","href":"Lisa-Chapter4\/Concepts\/C_responding_to_events.html","attributes":{"data-id":"C_responding_to_events"},"menu":{"hasChildren":true},"tocID":"C_responding_to_events-d1061e813","next":"C_responding_to_events-d1061e813"}]}};

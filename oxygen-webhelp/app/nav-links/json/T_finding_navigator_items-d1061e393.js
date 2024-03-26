@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"T_finding_navigator_items-d1061e393":{"topics":[{"title":"Examples","shortdesc":"<p class=\"shortdesc\"\/>","href":"Abrar-Chapter2\/Concepts\/C_exmp_finding_navigator_items.html","attributes":{"data-id":"C_exmp_finding_navigator_items"},"menu":{"hasChildren":false},"tocID":"C_exmp_finding_navigator_items-d1061e410","topics":[]}]}};

@@ -1,1 +1,0 @@
-oxy_webhelp_navlinks = {"C_refreshing_the_navigator-d1061e431":{"topics":[{"title":"Procedure","shortdesc":"<p class=\"shortdesc\"\/>","href":"Abrar-Chapter2\/Tasks\/T_refreshing_the_navigator.html","attributes":{"data-id":"T_refreshing_the_navigator"},"menu":{"hasChildren":false},"tocID":"T_refreshing_the_navigator-d1061e441","topics":[]}]}};
