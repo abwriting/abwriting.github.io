@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Table Find Examples","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter3\/References\/R_table_find_examples.html","attributes":{"data-id":"r_table_find_examples"},"menu":{"hasChildren":false},"tocID":"r_table_find_examples-d1067e789","topics":[]}]});

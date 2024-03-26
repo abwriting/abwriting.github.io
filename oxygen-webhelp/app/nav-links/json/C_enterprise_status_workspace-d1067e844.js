@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Event Details Workspace","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter4\/Concepts\/C_event_details_workspace.html","attributes":{"data-id":"C_event_details_workspace"},"menu":{"hasChildren":false},"tocID":"C_event_details_workspace-d1067e854","topics":[]}]});

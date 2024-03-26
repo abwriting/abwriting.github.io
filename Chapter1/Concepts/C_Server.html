@@ -1,0 +1,174 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="22.0">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="DC.rights.owner" content="(C) Copyright 2024" /><meta name="copyright" content="(C) Copyright 2024" /><meta name="generator" content="DITA-OT" /><meta name="DC.type" content="concept" /><meta name="description" content="The Marvel Enterprise Portal client connects to its application server, the Marvel Enterprise Portal Server. The Marvel Enterprise Portal Server is a collection of software services for the client ..." /><meta name="DC.subject" content="Server,Management Services" /><meta name="keywords" content="Server, Management Services" /><meta name="indexterms" content="Server, Management Services" /><meta name="DC.relation" scheme="URI" content="../../Chapter1/Concepts/C_Marvel_Management_Services_Architecture.html" /><meta name="DC.creator" content="Sridevi" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="C_Server" />        
+      <title>Server</title><!--  Generated with Oxygen version 23.1, build number 2021030117.  --><meta name="wh-path2root" content="../../" /><meta name="wh-toc-id" content="C_Server-d1067e78" /><meta name="wh-source-relpath" content="Chapter1/Concepts/C_Server.dita" /><meta name="wh-out-relpath" content="Chapter1/Concepts/C_Server.html" />
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" />
+    
+    <link rel="stylesheet" href="../../oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" />
+    
+    <!-- Template default styles  -->
+    <link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/app/topic-page.css?buildId=2021030117" />
+    
+    
+    <script type="text/javascript" src="../../oxygen-webhelp/lib/jquery/jquery-3.5.1.min.js"><!----></script>
+    
+    <script data-main="../../oxygen-webhelp/app/topic-page.js" src="../../oxygen-webhelp/lib/requirejs/require.js"></script>
+<link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/oxygen.css?buildId=2021030117" /><link rel="stylesheet" type="text/css" href="../../oxygen-webhelp/template/notes.css?buildId=2021030117" /></head>
+
+    <body id="C_Server" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">
+            Jump to main content
+        </a>
+        
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="23.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="../../index.html"><span class="booktitle">  <span class="ph mainbooktitle">Marvel-Run</span>  <span class="ph booktitlealt">User Guide</span>  </span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu " aria-label="Menu Container"><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="TO_about_this_information-d1067e18-mi" data-tocid="TO_about_this_information-d1067e18" data-state="leaf" class=" topicref " data-id="TO_about_this_information"><span class="title"><a href="../../Commons/CommonTopics/TO_about_this_information.html">About this Information</a></span></span></li><li role="menuitem"><span id="preface-d1067e26-mi" data-tocid="preface-d1067e26" data-state="leaf" class=" topicref " data-id="preface"><span class="title"><a href="../../Commons/CommonTopics/TO_preface.html">Foreword</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e37-mi" data-tocid="tocId-d1067e37" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter1/Concepts/C_getting_started.html">Introduction</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e275-mi" data-tocid="tocId-d1067e275" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter2/Concepts/C_navigator_overview.html">Using the Navigator</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e555-mi" data-tocid="tocId-d1067e555" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter3/Concepts/C_using_workspaces.html">Workspaces</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e812-mi" data-tocid="tocId-d1067e812" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter4/Concepts/C_responding_to_events.html">Responding to Events</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e948-mi" data-tocid="tocId-d1067e948" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter5/Concepts/C_customizing_workspaces.html">Custom Workspaces</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e1358-mi" data-tocid="tocId-d1067e1358" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter1/Appendix/C_appendix_a_boolean_and_or.html">Formula Functions</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="tocId-d1067e1430-mi" data-tocid="tocId-d1067e1430" data-state="not-ready" class=" topicref "><span class="title"><a href="../../Chapter1/Appendix/C_appendix_b_situation_definition_attributes.html">Marvel Enterprise Monitoring Server and Global Attributes</a></span></span></li></ul></nav>
+                <div class=" wh_indexterms_link "><a href="../../indexTerms.html" title="Index" aria-label="Go to index terms page"><span>Index</span></a></div>
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        
+         
+        
+        <!-- Search form -->
+        <div class=" wh_search_input navbar-form wh_topic_page_search search " role="form">
+            
+            
+            
+            <form id="searchForm" method="get" role="search" action="../../search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span class="search_input_text">Search</span></button></div></form>
+            
+            
+            
+        </div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md" aria-label="Tools">
+                    
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="../../index.html"><span>Home</span></a></span></li><li><span class="topicref"><span class="title"><a href="../../Chapter1/Concepts/C_getting_started.html">Introduction</a></span></span></li><li><span class="topicref" data-id="C_Marvel_Management_Services_Architecture"><span class="title"><a href="../../Chapter1/Concepts/C_Marvel_Management_Services_Architecture.html">Marvel Management Services Architecture</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li class="active"><span class="topicref" data-id="C_Server"><span class="title"><a href="../../Chapter1/Concepts/C_Server.html">Server</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ol></div>
+                    
+                    
+                    
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        
+                        <!-- External resource link -->
+                        
+                        
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                    
+                </nav>
+            </div>
+            
+            
+            
+            
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        
+                        <nav id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block d-print-none" aria-label="Table of Contents Container">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="tocId-d1067e37" class="topicref" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action tocId-d1067e37-link" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_getting_started.html" id="tocId-d1067e37-link">Introduction</a></span></span><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><span data-tocid="C_Getting_Started-d1067e38" class="topicref" data-id="C_Getting_Started" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_getting_started.html" id="C_Getting_Started-d1067e38-link">Getting Started</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="C_New_in_this_release-d1067e48" class="topicref" data-id="C_New_in_this_release" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_New_in_this_release.html" id="C_New_in_this_release-d1067e48-link">New in this Release</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="C_Marvel_Management_Services_Architecture-d1067e58" class="topicref" data-id="C_Marvel_Management_Services_Architecture" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action C_Marvel_Management_Services_Architecture-d1067e58-link" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Marvel_Management_Services_Architecture.html" id="C_Marvel_Management_Services_Architecture-d1067e58-link">Marvel Management Services Architecture</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span><ul role="group" class="navbar-nav nav-list"><li role="treeitem"><span data-tocid="C_Client-d1067e68" class="topicref" data-id="C_Client" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Client.html" id="C_Client-d1067e68-link">Client </a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem" class="active"><span data-tocid="C_Server-d1067e78" class="topicref" data-id="C_Server" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Server.html" id="C_Server-d1067e78-link">Server</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="C_Agent-d1067e88" class="topicref" data-id="C_Agent" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Agent.html" id="C_Agent-d1067e88-link">Agent</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li></ul></li><li role="treeitem"><span data-tocid="C_Enterprise_Portal_Window-d1067e98" class="topicref" data-id="C_Enterprise_Portal_Window" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Enterprise_Portal_Window.html" id="C_Enterprise_Portal_Window-d1067e98-link">Marvel Enterprise Portal Window</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Use this topic to familiarize yourself with the elements of the Marvel Enterprise         Portal window. </p></span></span></span></li><li role="treeitem"><span data-tocid="C_Browser_Client_Differences-d1067e109" class="topicref" data-id="C_Browser_Client_Differences" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_browser_client_differences.html" id="C_Browser_Client_Differences-d1067e109-link">Browser Client Differences</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">The Marvel Enterprise Portal can be started as a desktop application or through your         browser by entering the URL for the Marvel Enterprise Portal Server. There are a few         differences in operation between the two clients..</p></span></span></span></li><li role="treeitem"><span data-tocid="C_Monitoring_Agents-d1067e120" class="topicref" data-id="C_Monitoring_Agents" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Monitoring_Agents.html" id="C_Monitoring_Agents-d1067e120-link">Monitoring Agents</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="C_Features-d1067e130" class="topicref" data-id="C_Features" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Features.html" id="C_Features-d1067e130-link">Features</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">The Marvel Enterprise Portal gives you a single point of control for managing the         resources your applications rely on, including a range of operating systems, servers,         databases, platforms, and web components. For example, a typical IT network might have a web         server on Windows, an application server and database on UNIX, and a transaction processor         on CICS® on the mainframe. The Marvel Enterprise Portal brings all these views together in a         single window so that you can see when any aspect of your network is not working as         expected. Your IBM Marvel Monitoring products use the portal interface with these major         features, and you can find demos for many of them on developer works in the <a class="xref" href="http://www.ibm.com/tivoli/media" target="_blank" rel="external noopener">Media             Gallery</a>.</p></span></span></span></li><li role="treeitem"><span data-tocid="C_predefined_workspaces_situations_and_more-d1067e144" class="topicref" data-id="C_predefined_workspaces_situations_and_more" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Predefined_Workspaces_Situations_and_More.html" id="C_predefined_workspaces_situations_and_more-d1067e144-link">Predefined Workspaces, Situations, and More</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">Every agent is designed to monitor specific attributes of an operating system or         other type of software. With these attributes, come definitions for use with the Marvel         Enterprise Portal functions.</p></span></span></span></li><li role="treeitem" aria-expanded="false"><span data-tocid="C_marvel_enterprise_portal_tour-d1067e155" class="topicref" data-id="C_marvel_enterprise_portal_tour" data-state="not-ready"><span role="button" tabindex="0" aria-labelledby="button-expand-action C_marvel_enterprise_portal_tour-d1067e155-link" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_marvel_enterprise_portal_tour.html" id="C_marvel_enterprise_portal_tour-d1067e155-link">Marvel Enterprise Portal Tour</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc"></p></span></span></span></li><li role="treeitem"><span data-tocid="C_Troubleshooting-d1067e263" class="topicref" data-id="C_Troubleshooting" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="../../Chapter1/Concepts/C_Troubleshooting.html" id="C_Troubleshooting-d1067e263-link">Troubleshooting</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">This list provides some general debugging information.</p></span></span></span></li></ul></li></ul></div>
+                        </nav>
+                        
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="- topic/title title topictitle1" id="ariaid-title1">Server</h1>
+    
+    
+    <div class="- topic/body concept/conbody body conbody"><p class="- topic/shortdesc shortdesc"></p>
+        <p class="- topic/p p">The Marvel Enterprise Portal client connects to its application server, the Marvel
+            Enterprise Portal Server. The Marvel Enterprise Portal Server is a collection of
+            software services for the client that enables retrieval, manipulation and analysis of
+            data from the monitoring agents on your enterprise. This server connects to the Marvel
+            Enterprise <span class="- topic/keyword keyword">Monitoring Server</span>, which acts as a collection and control
+            point for alerts received from the monitoring agents, and collects performance and
+            availability data. The main, or hub, Marvel Enterprise Monitoring Server correlates the
+            monitoring data collected by agents and remote servers and passes it to the Marvel
+            Enterprise Portal Server for presentation and your evaluation.</p>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="23.1">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">&lt;oXygen/&gt; XML WebHelp</a> - Trial Edition
+  </div>
+</footer>
+        
+        <div id="go2top" class="d-print-none">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" alt="" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+        
+    </body>
+</html>

@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Procedure","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter3\/Tasks\/T_opening_a_workspace.html","attributes":{"data-id":"T_opening_a_workspace"},"menu":{"hasChildren":false},"tocID":"T_opening_a_workspace-d1067e590","topics":[]}]});

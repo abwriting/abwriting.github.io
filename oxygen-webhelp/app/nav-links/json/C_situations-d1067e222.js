@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Procedure","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter1\/Tasks\/T_situations.html","attributes":{"data-id":"T_situations"},"menu":{"hasChildren":false},"tocID":"T_situations-d1067e232","topics":[]}]});

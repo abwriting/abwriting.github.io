@@ -1,0 +1,1 @@
+define({"topics":[{"title":"Examples","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter2\/Concepts\/C_exmp_finding_navigator_items.html","attributes":{"data-id":"C_exmp_finding_navigator_items"},"menu":{"hasChildren":false},"tocID":"C_exmp_finding_navigator_items-d1067e410","topics":[]}]});
