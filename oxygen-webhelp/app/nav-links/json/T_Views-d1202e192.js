@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"T_Views-d1202e192":{"topics":[{"title":"Types of Views","shortdesc":"<p class=\"shortdesc\">Followng are types of views available in the Marvel Portal Window.<\/p>","href":"Chapter1\/Concepts\/C_Views.html","attributes":{"data-id":"C_Types_of_Views"},"menu":{"hasChildren":false},"tocID":"C_Types_of_Views-d1202e211","topics":[]}]}};

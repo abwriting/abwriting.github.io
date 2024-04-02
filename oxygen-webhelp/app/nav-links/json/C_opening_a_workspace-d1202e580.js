@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"C_opening_a_workspace-d1202e580":{"topics":[{"title":"Procedure","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter3\/Tasks\/T_opening_a_workspace.html","attributes":{"data-id":"T_opening_a_workspace"},"menu":{"hasChildren":false},"tocID":"T_opening_a_workspace-d1202e590","topics":[]}]}};

@@ -1,0 +1,1 @@
+oxy_webhelp_navlinks = {"C_refreshing_the_navigator-d1202e444":{"topics":[{"title":"Procedure","shortdesc":"<p class=\"shortdesc\"\/>","href":"Chapter2\/Tasks\/T_refreshing_the_navigator.html","attributes":{"data-id":"T_refreshing_the_navigator"},"menu":{"hasChildren":false},"tocID":"T_refreshing_the_navigator-d1202e454","topics":[]}]}};
